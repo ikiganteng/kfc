@@ -89,6 +89,9 @@ if($ec == "E0000"){
 }elseif($ec == "E0005"){
 		echo ''.$i.'.INVALID => '.$tod.' | '.$msg.'';
 								echo "\n";
+}else{
+			echo ''.$i.'.ERROR => '.$tod.'';
+								echo "\n";
 }
 		flush();
 		ob_flush();
